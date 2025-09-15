@@ -1,0 +1,17 @@
+@baseUrl = https://localhost:7212
+
+### Get all popsicles
+GET {{baseUrl}}/api/popsicle
+Accept: application/json
+
+### Create popsicle
+POST {{baseUrl}}/api/popsicle
+Content-Type: application/json
+
+{
+  "name": "Test Popsicle",
+  "flavor": "Vanilla",
+  "price": 2.99,
+  "description": "A test popsicle",
+  "quantity": 10
+}
