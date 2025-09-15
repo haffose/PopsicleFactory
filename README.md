@@ -86,7 +86,6 @@ PopsicleFactory/
     │   │      └── PopsicleSearchDto.cs        # Search criteria model
 │   │   └── 📁 Responses/
 │   │       ├── ErrorResponse.cs            # Error response models
-│   │       ├── ValidationErrorResponse.cs
 │   │       └── ApiResponse.cs
 │   ├── 📁 Services/
 │   │   ├── 📁 Interfaces/
